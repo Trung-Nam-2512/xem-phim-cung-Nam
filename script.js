@@ -65,7 +65,7 @@ function updateNoButtonText() {
 
 
 function clickPoster(){
-  const poster = document.querySelector(".poster")
+  const poster = document.querySelector(".postercontainer")
   const catImg = document.querySelector(".cat-img")
   const button = document.querySelector(".buttons")
   const title = document.querySelector(".title")
@@ -105,7 +105,7 @@ function submitName() {
   } else {
       alert("Cảm ơn " + userName + " nha ! ");
       // Đoạn này có thể thêm logic xử lý dữ liệu được nhập vào.
-      const poster = document.querySelector(".poster")
+      const poster = document.querySelector(".postercontainer")
       const catImg = document.querySelector(".cat-img")
       const button = document.querySelector(".buttons")
       const title = document.querySelector(".title")
